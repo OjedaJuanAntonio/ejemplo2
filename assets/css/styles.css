@@ -1,0 +1,93 @@
+body{
+    font-family: 'Monserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+#menu{
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+span{
+    color: #338487;
+}
+#logo{
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+/*slider carrusel*/
+
+.carousel-inner{
+    max-height: 39rem;
+}
+
+.portada{
+    max-height: 39rem;
+}
+
+
+
+
+/*pantalla pequeña*/
+@media (max-width:768px){
+    #inicio, #nosotros{
+        width: 95% !important;
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+
+}
+
+
+/*pantalla muy pequeña*/
+
+@media(max-width:576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+}
+
+
+#contenedor-formulario{
+    background-color: #338487;
+    min-height: 500px;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    padding-bottom: 10px;
+}
+
+.boton-formulario{
+    background-color: #566262 !important;
+    border-radius: 20px;
+}
+  
+
+
+#Mapa iframe {
+    border-radius: 20px;
+  }
+  
+
+footer{
+    background-color: #338487;
+    min-height: 100px;
+}
+
+footer p{
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#iconos{
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
+  
+  
